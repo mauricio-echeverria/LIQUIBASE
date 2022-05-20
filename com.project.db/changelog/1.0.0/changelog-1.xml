@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
         http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd"
         xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext">
-    <changeSet id="1.0.0-1" author="zcgonzalez@falabella.cl (generated)">
+    <changeSet id="1.0.0-1" author="mauricio.echeverria.vicencio@gmail.com (generated)">
         <ext:tagDatabase  tag="1.0.0"/>
         <sqlFile path="sql/CREATE_1.sql"
                  encoding="UTF-8"
