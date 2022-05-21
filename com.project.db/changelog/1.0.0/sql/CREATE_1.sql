@@ -1,5 +1,5 @@
 CREATE TABLE
-  audit_events (id STRING, created_at TIMESTAMP, event_id STRING, event_type STRING, event_date TIMESTAMP, json_event STRING, message STRING)
+  dummy (id STRING, created_at TIMESTAMP, event_id STRING, event_type STRING, event_date TIMESTAMP, json_event STRING, message STRING)
 PARTITION BY
   TIMESTAMP_TRUNC(event_date, MONTH)
 OPTIONS(
